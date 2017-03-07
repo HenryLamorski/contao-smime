@@ -1,6 +1,6 @@
 {
     "name":"henrylamorski/smime-gateway",
-    "description":"send s/mime signed emails with contao.",
+    "description":"send s/mime signed emails with contao. This is a gateway for terminal42/notification_center",
     "keywords":["contao", "smime"],
     "type":"contao-module",
     "license":"LGPL-3.0+",
