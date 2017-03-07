@@ -1,0 +1,27 @@
+{
+    "name":"henrylamorski/smime-gateway",
+    "description":"send s/mime signed emails with contao.",
+    "keywords":["contao", "smime"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+	{
+		"name":"Henry Lamorski",
+		"email":"henry.lamorski@mailbox.org",
+		"role":"Developer"
+	}
+    ],
+    "require":{
+        "php": ">=5.3.2",
+        "contao/core-bundle": "^3.5.2 || ~4.1",
+		"terminal42/notification_center": "~1.0"
+    },
+    "extra": {
+		"contao": {
+			"sources": {
+				"contao": "system/modules/notification_center_smime-gateway"
+			}
+		}
+	}
+}
+
